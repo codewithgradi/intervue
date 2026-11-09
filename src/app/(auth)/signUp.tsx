@@ -1,9 +1,8 @@
 import { ThemedText, ThemedView } from "@/components/ThemedComponents";
+import SignUpPage from "@/components/ui/SignUpPage";
 
-export default function SignUpPage() {
+export default function SignUpScreen() {
   return (
-    <ThemedView>
-      <ThemedText>Sign up</ThemedText>
-    </ThemedView>
+    <SignUpPage/>
   );
 }

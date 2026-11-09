@@ -1,9 +1,20 @@
-import { ThemedText, ThemedView } from "@/components/ThemedComponents";
+import LoginPage from "@/components/ui/login";
+import { StyleSheet } from "react-native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
-export default function LoginPage() {
+export default function LoginScreen() {
   return (
-    <ThemedView>
-      <ThemedText>Login</ThemedText>
-    </ThemedView>
+    <SafeAreaProvider style ={styles.container}>
+      <LoginPage  />
+    </SafeAreaProvider>
   );
 }
+
+
+const styles = StyleSheet.create({
+  container:{
+    flex:1,
+    justifyContent:"center",
+    alignItems:"center"
+  }
+})
