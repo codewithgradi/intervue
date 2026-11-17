@@ -1,0 +1,1395 @@
+[
+  {
+    "Question": "What is the difference between compilation and interpretation?",
+    "Answer": "Compilation translates source code into machine code creating an executable file. Interpretation translates and executes code line by line without an executable.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Tell me more about yourself",
+    "Answer": "Self answer",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Tell me about your projects",
+    "Answer": "Self answer",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Explain the concept of polymorphism.",
+    "Answer": "Polymorphism allows objects of different classes to be treated as objects of a common superclass, enabling method overriding.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Define encapsulation and give an example.",
+    "Answer": "Encapsulation bundles data and methods in a class, restricting direct data access. Example: class with private data and public methods.",
+    "Category": "General Programming",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is an abstract class, and how is it different from an interface?",
+    "Answer": "An abstract class can't be instantiated and can have abstract and concrete methods. An interface only has method signatures without implementations.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the principles of Object-Oriented Programming (OOP).",
+    "Answer": "OOP principles include encapsulation, inheritance, polymorphism, and abstraction, promoting organized and maintainable code.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is the purpose of a constructor?",
+    "Answer": "A constructor initializes object properties upon class instantiation, ensuring a well-defined state.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the difference between stack and heap memory.",
+    "Answer": "Stack memory stores local variables and function calls; heap memory is for dynamic allocation. Stack operates in LIFO, heap managed manually or by garbage collection.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a design pattern, and can you name a few?",
+    "Answer": "Design patterns are solutions to common design problems. Examples: Singleton, Factory, Observer, MVC.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Define the term *DRY* in software development.",
+    "Answer": "DRY (Don't Repeat Yourself) advocates for avoiding code duplication by reusing existing code.",
+    "Category": "General Programming",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is the SOLID principle?",
+    "Answer": "SOLID represents five design principles for OOP: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+    "Category": "General Program",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is the difference between an array and a linked list?",
+    "Answer": "An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",
+    "Category": "Data Structures",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Explain the time complexity of an algorithm.",
+    "Answer": "Time complexity measures the time an algorithm takes relative to its input size, expressed in Big O notation.",
+    "Category": "Data Structures",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe the difference between a binary search tree and a hash table.",
+    "Answer": "A binary search tree is hierarchical, maintaining order; a hash table maps keys to values for fast retrieval, without maintaining order.",
+    "Category": "Data Structures",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a linked list and how does it work?",
+    "Answer": "A linked list is a series of nodes each containing data and a reference to the next node, allowing dynamic memory allocation and efficient insertions/deletions.",
+    "Category": "Data Structures",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of recursion.",
+    "Answer": "Recursion is when a function calls itself to solve subproblems, with a base case to terminate recursion.",
+    "Category": "Data Structures",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Big O notation, and why is it important?",
+    "Answer": "Big O notation describes the upper bound of algorithm time complexity, important for comparing efficiency and growth rates.",
+    "Category": "Data Structures",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How do you perform a binary search on a sorted array?",
+    "Answer": "Binary search divides the search interval in half, repeatedly comparing the middle element to the target.",
+    "Category": "Data Structures",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Discuss the advantages and disadvantages of different sorting algorithms.",
+    "Answer": "Sorting algorithms vary in time/space complexity and stability. Quick Sort and Merge Sort are fast but more complex; Insertion and Bubble Sort are simple but slower.",
+    "Category": "Data Structures",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain how a hash table works.",
+    "Answer": "A hash table uses a hash function to map keys to values in an array, allowing fast O(1) access.",
+    "Category": "Data Structures",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is dynamic programming?",
+    "Answer": "Dynamic programming solves complex problems by dividing them into smaller subproblems, avoiding redundant calculations.",
+    "Category": "Data Structures",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is the difference between Java and JavaScript?",
+    "Answer": "Java is a compiled, statically-typed language used for server-side, mobile, and desktop apps. JavaScript is an interpreted, dynamically-typed language for web development.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the MVC architectural pattern.",
+    "Answer": "MVC divides an application into Model (data), View (UI), and Controller (input handling), promoting separation of concerns.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a RESTful API?",
+    "Answer": "RESTful API is a web service implementation using HTTP methods to perform CRUD operations on resources, adhering to stateless, client-server architecture.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the use of \"this\" keyword in JavaScript.",
+    "Answer": "\"this\" in JavaScript refers to the execution context, varying based on function calling, global scope, or event handlers.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a closure in programming?",
+    "Answer": "A closure is a function with access to its outer scope variables even after the outer function has executed.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What are the differences between Python 2 and Python 3?",
+    "Answer": "Python 3 has print as a function, true division, Unicode support by default, and different syntax for exceptions, unlike Python 2.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Discuss the role of a package manager like npm or pip.",
+    "Answer": "Package managers manage installation, update, and dependency resolution of libraries, simplifying library management in development.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain the concept of multi-threading in Java.",
+    "Answer": "Multi-threading in Java allows concurrent execution of multiple threads, improving application responsiveness and performance.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a Singleton pattern?",
+    "Answer": "Singleton ensures a class has only one instance and provides a global access point to it, useful for shared resources.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a virtual function in C++?",
+    "Answer": "Virtual functions in C++ allow derived classes to override them, enabling runtime polymorphism and dynamic method dispatch.",
+    "Category": "Languages and Frameworks",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a database index, and why is it important?",
+    "Answer": "A database index speeds up data retrieval, similar to a book's index, improving query performance.",
+    "Category": "Database and SQL",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the differences between SQL and NoSQL databases.",
+    "Answer": "SQL databases use structured query language with a predefined schema; NoSQL databases store schema-less data with flexible models.",
+    "Category": "Database and SQL",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a foreign key in a database?",
+    "Answer": "A foreign key links two tables by referring to the primary key in another table, ensuring referential integrity.",
+    "Category": "Database and SQL",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the ACID properties in database transactions.",
+    "Answer": "ACID: Atomicity (indivisible transactions), Consistency (consistent state transitions), Isolation (independent transactions), Durability (persisted changes).",
+    "Category": "Database and SQL",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "How do you optimize a SQL query for better performance?",
+    "Answer": "Optimize using indexes, efficient SQL, limiting data retrieval, analyzing query performance, and considering denormalization.",
+    "Category": "Database and SQL",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "What is normalization in database design?",
+    "Answer": "Normalization organizes data into separate tables to reduce redundancy and improve integrity, following normalization forms.",
+    "Category": "Database and SQL",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain the difference between INNER JOIN and LEFT JOIN in SQL.",
+    "Answer": "INNER JOIN returns matching rows from both tables; LEFT JOIN returns all rows from the left table and matching rows from the right.",
+    "Category": "Database and SQL",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a stored procedure, and when would you use one?",
+    "Answer": "Stored procedures are precompiled SQL statements for data manipulation and logic, used for repetitive tasks and improving performance.",
+    "Category": "Database and SQL",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is database denormalization, and when is it appropriate?",
+    "Answer": "Denormalization introduces redundancy for performance, useful in read-heavy scenarios at the expense of storage and complexity.",
+    "Category": "Database and SQL",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Discuss the advantages and disadvantages of using an ORM tool.",
+    "Answer": "ORM simplifies database interactions and is language-agnostic. It can introduce performance overhead and may limit database features.",
+    "Category": "Database and SQL",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is the Document Object Model (DOM)?",
+    "Answer": "The DOM is a tree-like representation of a web page's structure, allowing manipulation of content, structure, and style via programming languages.",
+    "Category": "Web Development",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain the difference between HTTP and HTTPS.",
+    "Answer": "HTTP is an unsecured data transmission protocol; HTTPS is secure, encrypting data in transit using SSL/TLS.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is CORS (Cross-Origin Resource Sharing)?",
+    "Answer": "CORS is a security measure allowing or restricting resources requested from another domain, managed via HTTP headers.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the purpose of a web server like Apache or Nginx.",
+    "Answer": "Web servers handle HTTP requests, serve content, manage security, routing, and can act as reverse proxies for application servers.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a cookie, and how does it work?",
+    "Answer": "Cookies are data stored on the user's computer by the web server, sent with HTTP requests for session management, tracking, and storing preferences.",
+    "Category": "Web Development",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is a session in web development?",
+    "Answer": "A session maintains stateful information across multiple HTTP requests, typically for user authentication and data storage.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of responsive web design.",
+    "Answer": "Responsive design ensures web content functions across different devices and screen sizes, using CSS media queries and flexible layouts.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the differences between GET and POST requests.",
+    "Answer": "GET requests retrieve data and include parameters in the URL; POST requests send data to the server, encapsulating data in the request body.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is the importance of SEO in web development?",
+    "Answer": "SEO enhances a website's visibility in search engine results, improving organic traffic and user reach through optimized content and structure.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How does a web browser render a web page?",
+    "Answer": "Browsers parse HTML to create a DOM, fetch resources, build a rendering tree, apply CSS, calculate layout, and paint the page on the screen.",
+    "Category": "Web Development",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is unit testing, and why is it important?",
+    "Answer": "Unit testing evaluates individual code components, ensuring correctness and facilitating early defect detection.",
+    "Category": "Software Testing",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the difference between black-box and white-box testing.",
+    "Answer": "Black-box tests functionality without internal code knowledge; white-box tests internal code logic and structure.",
+    "Category": "Software Testing",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is regression testing?",
+    "Answer": "Regression testing ensures new code changes don't break existing features, maintaining functionality over updates.",
+    "Category": "Software Testing",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Describe the purpose of code reviews.",
+    "Answer": "Code reviews identify defects, improve quality, enforce standards, and facilitate knowledge sharing.",
+    "Category": "Software Testing",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is continuous integration (CI) and continuous delivery (CD)?",
+    "Answer": "CI involves frequent code integration and testing; CD extends CI by deploying changes to production automatically after testing.",
+    "Category": "Software Testing",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of code coverage in testing.",
+    "Answer": "Code coverage measures the extent of code tested, assessing test thoroughness and identifying untested areas.",
+    "Category": "Software Testing",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a test case and how do you write one?",
+    "Answer": "A test case outlines test conditions, inputs, and expected results, structured with objective, steps, and documentation.",
+    "Category": "Software Testing",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is load testing, and why is it necessary?",
+    "Answer": "Load testing evaluates system performance under expected load conditions, identifying bottlenecks and scalability issues.",
+    "Category": "Software Testing",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the differences between manual and automated testing.",
+    "Answer": "Manual testing is human-driven; suitable for exploratory and UX testing. Automated testing uses tools for repetitive tasks; suitable for regression and performance testing.",
+    "Category": "Software Testing",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is a bug tracking system?",
+    "Answer": "A bug tracking system logs, manages, and resolves issues in software development, ensuring systematic problem handling.",
+    "Category": "Software Testing",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Git, and how does it work?",
+    "Answer": "Git is a distributed version control system for tracking changes in source code, allowing collaborative work and branch management.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the difference between Git and SVN (Subversion).",
+    "Answer": "Git is distributed, with local repository copies; SVN is centralized, requiring network connectivity for repository access.",
+    "Category": "Version Control",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is a merge conflict, and how do you resolve it in Git?",
+    "Answer": "Merge conflicts occur when changes in different branches clash. Resolve by manually editing files and committing the result.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the purpose of branching in version control.",
+    "Answer": "Branching isolates development work without affecting other parts of the repository, aiding in feature development and experimentation.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a pull request (PR), and how does it work?",
+    "Answer": "A PR is a request to merge code from one branch to another, facilitating code review and discussion before integration.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How do you handle code conflicts in a team project?",
+    "Answer": "Resolve code conflicts through communication, careful review, manual merging, testing, and documenting resolutions.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is code refactoring, and why is it important?",
+    "Answer": "Refactoring improves code structure and readability without altering functionality, enhancing maintainability and quality.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the role of Git branching strategies like GitFlow.",
+    "Answer": "GitFlow organizes branches and releases, defining naming conventions and branch purposes for structured and organized development.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Git rebase, and when would you use it?",
+    "Answer": "Git rebase re-applies commits onto another base for a cleaner history. Use with caution to maintain a linear project history.",
+    "Category": "Version Control",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Discuss the advantages of distributed version control systems.",
+    "Answer": "Distributed systems allow offline work, flexible branching/merging, faster operations, redundancy, and collaborative workflows.",
+    "Category": "Version Control",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the concept of microservices architecture.",
+    "Answer": "Microservices architecture consists of small, independent services communicating via APIs, each responsible for specific functionality, promoting scalability and maintenance.",
+    "Category": "System Design",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a load balancer, and why is it used in web applications?",
+    "Answer": "A load balancer distributes incoming traffic across servers, ensuring resource efficiency, fault tolerance, and high availability.",
+    "Category": "System Design",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the importance of caching in web applications.",
+    "Answer": "Caching stores frequently accessed data for faster retrieval, reducing backend load, improving performance, and enhancing user experience.",
+    "Category": "System Design",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a CDN (Content Delivery Network)?",
+    "Answer": "A CDN is a network of servers for delivering content efficiently to users based on geographic proximity, reducing latency and load times.",
+    "Category": "System Design",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Discuss the pros and cons of monolithic vs. microservices architecture.",
+    "Answer": "Monolithic is simple but less scalable; microservices offer scalability and flexibility but are complex to manage.",
+    "Category": "System Design",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a stateless vs. stateful service?",
+    "Answer": "Stateless services don't retain client data between requests; stateful services maintain client state, useful for sessions and transactions.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain the concept of CAP theorem in distributed systems.",
+    "Answer": "The CAP theorem states that in a distributed system, you cannot simultaneously guarantee Consistency, Availability, and Partition Tolerance at all times.",
+    "Category": "System Design",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "How do you ensure data consistency in a distributed database?",
+    "Answer": "Ensure consistency using strong consistency models, two-phase commits, optimistic concurrency control, and conflict resolution strategies.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe the role of a reverse proxy in a web application.",
+    "Answer": "A reverse proxy routes client requests to appropriate servers, providing load balancing, SSL termination, caching, and security.",
+    "Category": "System Design",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a message broker, and when would you use one?",
+    "Answer": "A message broker facilitates communication in distributed systems through asynchronous messaging, used in event-driven architectures and high-volume scenarios.",
+    "Category": "System Design",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is SQL injection, and how can it be prevented?",
+    "Answer": "SQL injection exploits vulnerabilities to execute malicious SQL. Prevent with parameterized queries, input validation, and least privilege access.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of Cross-Site Scripting (XSS).",
+    "Answer": "XSS injects malicious scripts into web apps, executed by users' browsers. Prevent with input validation, output encoding, and CSP.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is two-factor authentication (2FA)?",
+    "Answer": "2FA adds extra security by requiring two verification forms: something known (password) and something possessed (device).",
+    "Category": "Security",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe the process of password hashing and salting.",
+    "Answer": "Hashing transforms passwords into hashes using algorithms; salting adds randomness, enhancing security against attacks.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is OAuth, and how does it work?",
+    "Answer": "OAuth allows third-party app access to user data without exposing credentials, using access tokens for authorization.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How do you protect against session fixation attacks?",
+    "Answer": "Protect by regenerating session IDs post-authentication, using unpredictable IDs, and tying IDs to user authentication.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the principles of least privilege and defense in depth.",
+    "Answer": "Least privilege limits access rights; defense in depth layers security. Both minimize attack surfaces and provide redundancy.",
+    "Category": "Security",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is a DDoS (Distributed Denial of Service) attack?",
+    "Answer": "A DDoS attack overwhelms a target with traffic, causing unavailability. Mitigate with DDoS protection, rate limiting, and traffic analysis.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How can you secure sensitive data in a mobile app?",
+    "Answer": "Secure data by encrypting at rest and in transit, using secure authentication, and following best practices.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Discuss the importance of security in API design.",
+    "Answer": "API security is vital to protect data and prevent unauthorized access, using authentication, validation, rate limiting, and encryption.",
+    "Category": "Security",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Docker, and how does it work?",
+    "Answer": "Docker is a containerization platform packaging applications with dependencies, ensuring consistent environments across systems.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of container orchestration.",
+    "Answer": "Container orchestration automates deployment, scaling, and management of containers, optimizing resource use and handling failures.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Kubernetes, and why is it popular in container management?",
+    "Answer": "Kubernetes is an open-source container orchestration platform automating deployment and management, known for its scalability and community support.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the process of continuous integration and continuous delivery (CI/CD).",
+    "Answer": "CI/CD automates build, test, and deployment processes, delivering code changes rapidly and reliably to production.",
+    "Category": "DevOps",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is infrastructure as code (IaC)?",
+    "Answer": "IaC manages infrastructure using code, ensuring consistency, automation, and version control in deployments.",
+    "Category": "DevOps",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "How do you monitor the performance of a web application?",
+    "Answer": "Monitor using tools to collect and analyze data on response times, resource utilization, error rates, and user experience.",
+    "Category": "DevOps",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Discuss the importance of automated testing in CI/CD pipelines.",
+    "Answer": "Automated testing in CI/CD ensures code changes are defect-free, enhancing reliability and speeding up delivery.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Blue-Green deployment, and when would you use it?",
+    "Answer": "Blue-Green deployment alternates between two production environments for easy rollbacks and minimal downtime during updates.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the role of a configuration management tool like Ansible.",
+    "Answer": "Configuration management tools automate provisioning and management of software and infrastructure, ensuring consistency and efficiency.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the benefits of using a cloud platform like AWS, Azure, or Google Cloud.",
+    "Answer": "Cloud platforms offer scalability, cost-efficiency, global reach, and managed services, reducing operational burdens with security and compliance features.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of 'closure' in JavaScript.",
+    "Answer": "A closure is a function that remembers its outer variables and can access them.",
+    "Category": "Front-end",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe the use of Docker in a DevOps environment.",
+    "Answer": "Docker allows for packaging applications in containers, facilitating consistent deployment across different environments.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a 'race condition' in software development?",
+    "Answer": "A race condition occurs when the system's behavior depends on the sequence or timing of other uncontrollable events.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How would you optimize a website's load time?",
+    "Answer": "Optimizations can include minimizing HTTP requests, using CDNs, compressing files, caching, etc.",
+    "Category": "Front-end",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is the difference between SQL and NoSQL databases?",
+    "Answer": "SQL databases are structured, use SQL, and are better for complex queries. NoSQL databases are flexible, scale well, and are good for hierarchical data storage.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Can you explain the concept of 'state' in React?",
+    "Answer": "State in React is an object that holds some information that may change over the lifecycle of the component.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is continuous integration in DevOps?",
+    "Answer": "Continuous integration is the practice of automating the integration of code changes into a software project.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How do you implement a binary search algorithm?",
+    "Answer": "Binary search involves repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed the possibilities to just one.",
+    "Category": "Full-stack",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the MVC architecture.",
+    "Answer": "MVC architecture stands for Model-View-Controller, separating the application into three interconnected components.",
+    "Category": "Full-stack",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What are microservices and how do they differ from monolithic architectures?",
+    "Answer": "Microservices are a software development technique�a variant of the service-oriented architecture architectural style that structures an application as a collection of loosely coupled services. In a monolithic architecture, all components are interconnected and interdependent.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the difference between '==' and '===' in JavaScript.",
+    "Answer": "'==' compares values after type conversion, while '===' compares both value and type.",
+    "Category": "Front-end",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is Kubernetes and how does it relate to containerization?",
+    "Answer": "Kubernetes is an open-source platform for automating deployment, scaling, and operations of application containers across clusters of hosts.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe how you would implement a RESTful API in a back-end application.",
+    "Answer": "A RESTful API is implemented by setting up HTTP routes (GET, POST, PUT, DELETE) and handling requests and responses in a stateless manner, often using JSON.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What are the benefits of server-side rendering vs client-side rendering?",
+    "Answer": "Server-side rendering improves initial page load time and SEO, while client-side rendering is good for dynamic websites with less initial loading content.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How do NoSQL databases handle data scaling compared to traditional SQL databases?",
+    "Answer": "NoSQL databases are generally more scalable and provide superior performance for large-scale applications due to their flexibility in handling unstructured data.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the use of hooks in React.",
+    "Answer": "Hooks are functions that let you 'hook into' React state and lifecycle features from function components.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Infrastructure as Code (IaC) and its significance in DevOps?",
+    "Answer": "IaC is the management of infrastructure (networks, virtual machines, load balancers, etc.) in a descriptive model, using code, which increases development and deployment speed.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the process of memoization in programming.",
+    "Answer": "Memoization is an optimization technique used to speed up programs by storing the results of expensive function calls.",
+    "Category": "Full-stack",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What are the advantages of using a microservices architecture?",
+    "Answer": "Advantages include easier scalability, flexibility in choosing technology, better fault isolation, and improved continuous deployment.",
+    "Category": "Back-end",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Explain the SOLID principles in software engineering.",
+    "Answer": "SOLID stands for Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles, guiding towards more maintainable, understandable, and flexible software.",
+    "Category": "Full-stack",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is lazy loading in web development?",
+    "Answer": "Lazy loading is a design pattern that delays loading of non-critical resources at page load time, reducing initial load time and page weight.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Discuss the role of a load balancer in a distributed system.",
+    "Answer": "A load balancer distributes network or application traffic across multiple servers to enhance responsiveness and availability of applications.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How does indexing improve database query performance?",
+    "Answer": "Indexing speeds up data retrieval operations by effectively creating a smaller, faster version of the database table.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain event delegation in JavaScript.",
+    "Answer": "Event delegation refers to the practice of using a single event listener to manage all events of a specific type for child elements.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of 'closure' in JavaScript.",
+    "Answer": "A closure is a function that remembers its outer variables and can access them.",
+    "Category": "Front-end",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe the use of Docker in a DevOps environment.",
+    "Answer": "Docker allows for packaging applications in containers, facilitating consistent deployment across different environments.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is a 'race condition' in software development?",
+    "Answer": "A race condition occurs when the system's behavior depends on the sequence or timing of other uncontrollable events.",
+    "Category": "Back-end",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "How would you optimize a website's load time?",
+    "Answer": "Optimizations can include minimizing HTTP requests, using CDNs, compressing files, caching, etc.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is the difference between SQL and NoSQL databases?",
+    "Answer": "SQL databases are structured, use SQL, and are better for complex queries. NoSQL databases are flexible, scale well, and are good for hierarchical data storage.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Can you explain the concept of 'state' in React?",
+    "Answer": "State in React is an object that holds some information that may change over the lifecycle of the component.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is continuous integration in DevOps?",
+    "Answer": "Continuous integration is the practice of automating the integration of code changes into a software project.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How do you implement a binary search algorithm?",
+    "Answer": "Binary search involves repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed the possibilities to just one.",
+    "Category": "Full-stack",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the MVC architecture.",
+    "Answer": "MVC architecture stands for Model-View-Controller, separating the application into three interconnected components.",
+    "Category": "Full-stack",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What are microservices and how do they differ from monolithic architectures?",
+    "Answer": "Microservices are a software development technique�a variant of the service-oriented architecture architectural style that structures an application as a collection of loosely coupled services. In a monolithic architecture, all components are interconnected and interdependent.",
+    "Category": "Back-end",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain the difference between '==' and '===' in JavaScript.",
+    "Answer": "'==' compares values after type conversion, while '===' compares both value and type.",
+    "Category": "Front-end",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "What is Kubernetes and how does it relate to containerization?",
+    "Answer": "Kubernetes is an open-source platform for automating deployment, scaling, and operations of application containers across clusters of hosts.",
+    "Category": "DevOps",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe how you would implement a RESTful API in a back-end application.",
+    "Answer": "A RESTful API is implemented by setting up HTTP routes (GET, POST, PUT, DELETE) and handling requests and responses in a stateless manner, often using JSON.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What are the benefits of server-side rendering vs client-side rendering?",
+    "Answer": "Server-side rendering improves initial page load time and SEO, while client-side rendering is good for dynamic websites with less initial loading content.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How do NoSQL databases handle data scaling compared to traditional SQL databases?",
+    "Answer": "NoSQL databases are generally more scalable and provide superior performance for large-scale applications due to their flexibility in handling unstructured data.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the use of hooks in React.",
+    "Answer": "Hooks are functions that let you 'hook into' React state and lifecycle features from function components.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What is Infrastructure as Code (IaC) and its significance in DevOps?",
+    "Answer": "IaC is the management of infrastructure (networks, virtual machines, load balancers, etc.) in a descriptive model, using code, which increases development and deployment speed.",
+    "Category": "DevOps",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe the process of memoization in programming.",
+    "Answer": "Memoization is an optimization technique used to speed up programs by storing the results of expensive function calls.",
+    "Category": "Full-stack",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "What are the advantages of using a microservices architecture?",
+    "Answer": "Advantages include easier scalability, flexibility in choosing technology, better fault isolation, and improved continuous deployment.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the SOLID principles in software engineering.",
+    "Answer": "SOLID stands for Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles, guiding towards more maintainable, understandable, and flexible software.",
+    "Category": "Full-stack",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "What is lazy loading in web development?",
+    "Answer": "Lazy loading is a design pattern that delays loading of non-critical resources at page load time, reducing initial load time and page weight.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Discuss the role of a load balancer in a distributed system.",
+    "Answer": "A load balancer distributes network or application traffic across multiple servers to enhance responsiveness and availability of applications.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "How does indexing improve database query performance?",
+    "Answer": "Indexing speeds up data retrieval operations by effectively creating a smaller, faster version of the database table.",
+    "Category": "Back-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain event delegation in JavaScript.",
+    "Answer": "Event delegation refers to the practice of using a single event listener to manage all events of a specific type for child elements.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Explain the concept of 'closure' in JavaScript.",
+    "Answer": "A closure is a function that remembers its outer variables and can access them.",
+    "Category": "Front-end",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe the use of Docker in a DevOps environment.",
+    "Answer": "Docker allows for packaging applications in containers, facilitating consistent deployment across different environments.",
+    "Category": "DevOps",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Design a distributed key-value store.",
+    "Answer": "Focus on data partitioning, replication for fault tolerance, consistency models, and handling node failures.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement a function to check if a binary tree is balanced.",
+    "Answer": "Use a recursive function to check the height of each subtree; return false if the difference is more than one.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a URL shortening service like bit.ly.",
+    "Answer": "Consider efficient hashing, collision resolution, database schema, scalability, and API rate limiting.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a recommendation system for a large e-commerce platform.",
+    "Answer": "Use collaborative filtering, content-based filtering, or hybrid methods; consider scalability and real-time processing.",
+    "Category": "Machine Learning",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Write an algorithm to find the median of a stream of numbers.",
+    "Answer": "Use two heaps (max heap for lower half, min heap for upper half) to maintain the median.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain the Raft consensus algorithm.",
+    "Answer": "Discuss leader election, log replication, safety, and how Raft achieves consensus in a distributed system.",
+    "Category": "Distributed Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Optimize a global, high-traffic content delivery network.",
+    "Answer": "Use strategies like caching, edge locations, load balancing, and optimizing routing and data compression.",
+    "Category": "Networking",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a chat application that can scale to millions of users.",
+    "Answer": "Consider websocket protocol for real-time communication, efficient message broadcasting, and scalable backend architecture.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement a garbage collector for a programming language.",
+    "Answer": "Understand memory management concepts like mark-and-sweep, reference counting, and generational collection.",
+    "Category": "Low-level Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a scalable notification system for a social network.",
+    "Answer": "Focus on system architecture, push vs. pull models, handling peak loads, database optimization, and message queuing.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain the workings of the TCP protocol for a low-latency network.",
+    "Answer": "Focus on the three-way handshake, congestion control (like TCP Fast Open, and CUBIC), and optimizing for reduced latency.",
+    "Category": "Networking",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design and implement a concurrent hash map.",
+    "Answer": "Implement with fine-grained locking or lock-free techniques to ensure thread safety and high concurrency.",
+    "Category": "Data Structures",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Find the Kth largest element in a stream of numbers.",
+    "Answer": "Utilize a min-heap to keep track of the K largest elements, ensuring efficient insertion and extraction.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement Google's PageRank algorithm.",
+    "Answer": "Use graph-based algorithms focusing on eigenvector calculation and iterative approaches.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design an API rate limiter for a web service.",
+    "Answer": "Use token bucket or leaky bucket algorithms, consider distributed storage for scalability.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Optimize database queries for a high-traffic website.",
+    "Answer": "Focus on indexing, query optimization, using caching, database sharding, and efficient schema design.",
+    "Category": "Database Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Create a secure and scalable authentication system for a web application.",
+    "Answer": "Implement OAuth for third-party integrations, use JWT for stateless authentication, and ensure protection against common security vulnerabilities.",
+    "Category": "Security",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a system for efficient storage and retrieval of large-scale time-series data.",
+    "Answer": "Optimize for write-heavy loads, use time-based partitioning, efficient indexing, and consider data compression techniques.",
+    "Category": "Database Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Explain how a blockchain works and how to implement one.",
+    "Answer": "Focus on cryptographic hashing, decentralized consensus algorithms (like Proof of Work), and the maintenance of a distributed ledger.",
+    "Category": "Distributed Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design an efficient parking lot management system.",
+    "Answer": "Use object-oriented design principles, focus on efficiently handling different vehicle sizes, and optimizing space usage.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Develop a machine learning model to predict stock prices.",
+    "Answer": "Consider time series analysis, regression models, and reinforcement learning; pay attention to features and data preprocessing.",
+    "Category": "Machine Learning",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Write a custom memory allocator for a C++ application.",
+    "Answer": "Discuss memory pool allocation, handling fragmentation, and optimizing for allocation/deallocation speed.",
+    "Category": "Low-level Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a real-time multiplayer online game architecture.",
+    "Answer": "Focus on handling high network traffic, efficient state synchronization, latency reduction, and scalability.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement a distributed file system.",
+    "Answer": "Address challenges in data distribution, replication, fault tolerance, consistency, and performance.",
+    "Category": "Distributed Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Optimize a search algorithm for a large dataset in a distributed environment.",
+    "Answer": "Implement distributed searching algorithms like MapReduce for scalability and efficiency.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a data pipeline for processing big data in real-time.",
+    "Answer": "Utilize stream processing frameworks (like Apache Kafka, Spark Streaming), ensure fault tolerance, and manage backpressure.",
+    "Category": "Data Engineering",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Build a high-frequency trading system and discuss its components.",
+    "Answer": "Focus on low latency, high throughput, reliable data feeds, order execution systems, and concurrent algorithms.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Develop a deep learning model to analyze and interpret medical images.",
+    "Answer": "Use convolutional neural networks, pay attention to dataset quality and preprocessing, and handle class imbalances.",
+    "Category": "Machine Learning",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Create an AI that can play a complex board game at a competitive level.",
+    "Answer": "Implement advanced AI techniques like Monte Carlo Tree Search, deep learning, and reinforcement learning.",
+    "Category": "Artificial Intelligence",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a fraud detection system for online transactions.",
+    "Answer": "Use machine learning for anomaly detection, implement rule-based systems for known fraud patterns, ensure real-time processing.",
+    "Category": "Security",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement a distributed graph processing framework.",
+    "Answer": "Discuss vertex-centric computation, message passing between nodes, and optimizations for large-scale processing.",
+    "Category": "Distributed Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a global video streaming service like Netflix.",
+    "Answer": "Focus on CDN usage, adaptive bitrate streaming, content caching strategies, and handling peak traffic loads.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Create a system to efficiently match job seekers with job postings.",
+    "Answer": "Use NLP for parsing resumes, implement ranking algorithms, and optimize for search and matching efficiency.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design and implement a large-scale distributed cache system.",
+    "Answer": "Consider consistency, data partitioning, eviction policies, and fault tolerance in distributed caching.",
+    "Category": "Distributed Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Optimize network protocols for a satellite communication system.",
+    "Answer": "Address latency, data loss, and bandwidth issues; optimize for long-distance and high-latency networks.",
+    "Category": "Networking",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Develop an autonomous vehicle's path planning algorithm.",
+    "Answer": "Implement algorithms considering real-time obstacle avoidance, dynamic path adjustments, and efficient routing.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a scalable and reliable messaging system for a large corporation.",
+    "Answer": "Utilize message queues (like Kafka, RabbitMQ), ensure fault tolerance, and implement load balancing.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement a natural language processing algorithm to understand and answer user queries.",
+    "Answer": "Use NLP techniques like tokenization, parsing, and deep learning models for understanding and generating responses.",
+    "Category": "Machine Learning",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Create an efficient algorithm for real-time anomaly detection in network traffic.",
+    "Answer": "Implement statistical models or machine learning algorithms to detect unusual patterns indicative of anomalies.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a system to manage and process Internet of Things (IoT) data.",
+    "Answer": "Focus on handling large-scale data influx, real-time processing, data storage, and analytics.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Build a compiler for a new programming language.",
+    "Answer": "Discuss lexical analysis, parsing, syntax tree generation, semantic analysis, and code generation.",
+    "Category": "Low-level Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement a robust text editor with features like auto-complete and syntax highlighting.",
+    "Answer": "Consider efficient data structures for text storage (like gap buffers), and algorithms for syntax parsing.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a scalable infrastructure for an online advertising platform.",
+    "Answer": "Focus on handling high-volume traffic, data analytics, ad targeting algorithms, and ensuring low-latency responses.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Develop a machine learning algorithm to detect fake news on social media.",
+    "Answer": "Use NLP for text analysis, implement classification algorithms, and consider the challenge of unstructured data.",
+    "Category": "Machine Learning",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Optimize an SQL database for a high-volume financial transaction system.",
+    "Answer": "Focus on transaction isolation levels, indexing strategies, query optimization, and database sharding.",
+    "Category": "Database Systems",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a cloud-based virtual desktop infrastructure.",
+    "Answer": "Address virtualization technologies, resource allocation, security, and remote access protocols.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Create a real-time sports analytics system using sensor data.",
+    "Answer": "Utilize streaming data processing, machine learning for pattern recognition, and efficient data storage solutions.",
+    "Category": "Data Engineering",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Implement a quantum algorithm for solving a well-known computational problem.",
+    "Answer": "Discuss quantum computing principles, qubit manipulation, and specific algorithms like Grover's or Shor's algorithm.",
+    "Category": "Algorithms",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Design a secure mobile payment system for developing countries.",
+    "Answer": "Focus on security protocols, offline capabilities, user authentication, and low-resource optimizations.",
+    "Category": "Security",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Build a scalable image processing pipeline for a photo-sharing app.",
+    "Answer": "Implement distributed processing, efficient storage, and consider ML techniques for feature extraction.",
+    "Category": "System Design",
+    "Difficulty": "Hard"
+  },
+
+  {
+    "Question": "Tell me about a time you disagreed with a teammate or manager on a technical decision. How did you handle it?",
+    "Answer": "Outline the technical context, acknowledge the other person's perspective, explain how you used objective data, benchmarks, or a small proof-of-concept to evaluate both options, and describe the final alignment and outcome.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe a situation where you had to work with a difficult or uncooperative colleague.",
+    "Answer": "Focus on empathy, clear communication, and shared goals. Explain how you initiated a one-on-one conversation to understand their blockers or concerns, established clear boundaries or workflows, and kept the project moving forward professionally.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Tell me about a major bug you introduced into production and how you resolved it.",
+    "Answer": "Take full ownership without blaming others. Walk through how the bug was detected, the immediate mitigation steps (rollback or hotfix), root cause analysis, and the systemic changes you added (such as unit tests, CI checks, or monitoring) to prevent recurrence.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe a time you had to meet a tight deadline with changing or ambiguous requirements.",
+    "Answer": "Explain how you clarified priorities with stakeholders, broke the work down into an MVP versus nice-to-have features, communicated trade-offs early, and delivered iteratively while keeping everyone informed of progress.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Tell me about a time you received critical or constructive feedback on your code or work.",
+    "Answer": "Demonstrate a growth mindset. Describe the specific feedback, how you listened without becoming defensive, the concrete actions you took to improve, and how that feedback positively impacted your future work.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Give an example of a time you had to learn a new technology, language, or framework quickly to complete a project.",
+    "Answer": "Detail your learning strategy—reading official documentation, building a small prototype, consulting senior engineers—and show how you successfully applied that knowledge to deliver the feature on time.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Tell me about a project you are particularly proud of. What was your specific contribution?",
+    "Answer": "Highlight your individual ownership within the team. Explain the problem the project solved, the architectural or implementation choices you drove, challenges you overcame, and measurable business or performance results.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Describe a time when you had to push back on a product manager or stakeholder's request.",
+    "Answer": "Show how you translated technical constraints (such as security risks, performance bottlenecks, or technical debt) into business impact, and proposed a realistic alternative that still met the stakeholder's core goal.",
+    "Category": "Behavioral",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Tell me about a time you identified and fixed a significant bottleneck or technical debt issue proactively.",
+    "Answer": "Explain how you noticed the inefficiency, quantified its impact on system performance or developer velocity, built a case for prioritizing the fix, and measured the improvement afterward.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe a situation where a project you were working on failed or missed its deadline. What did you learn?",
+    "Answer": "Be honest and reflective. Identify the root causes (e.g., underestimated complexity, poor communication, scope creep), explain your role in the miss, and highlight the process changes you adopted afterward.",
+    "Category": "Behavioral",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Tell me about a time you mentored or helped onboard a junior developer.",
+    "Answer": "Share how you tailored your guidance to their learning style—such as pair programming, thorough code reviews, or documentation—and explain how they grew more independent as a result.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Describe a time you had to make a critical decision without having all the information you needed.",
+    "Answer": "Explain how you assessed the risks, gathered whatever data was available quickly, made a reversible or modular design choice so you could pivot later, and documented your assumptions.",
+    "Category": "Behavioral",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Tell me about a time you had to explain a complex technical concept to a non-technical audience.",
+    "Answer": "Focus on how you avoided jargon, used relatable analogies, tied the explanation to business outcomes or user experience, and verified that the audience understood.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Describe a high-pressure production outage you helped troubleshoot.",
+    "Answer": "Walk through your calm, systematic debugging process: checking logs and metrics, isolating variables, coordinating communication during the incident, restoring service, and writing a blameless post-mortem.",
+    "Category": "Behavioral",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Tell me about a time you had to balance code quality and speed of delivery.",
+    "Answer": "Show pragmatic judgment. Explain why speed was necessary in that context, what deliberate shortcuts were taken, how you isolated the technical debt, and when you went back to clean it up.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Give an example of a time you improved a team process or engineering workflow.",
+    "Answer": "Identify the friction point (e.g., slow deployments, flaky tests, unclear PR guidelines), describe the solution you introduced, how you got team buy-in, and the time or errors saved.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe a time you took ownership of a task or problem that wasn't officially assigned to you.",
+    "Answer": "Demonstrate initiative. Explain why the gap mattered to the team or customer, how you stepped in without stepping on toes, and the positive outcome of taking responsibility.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Tell me about a time you had to work with legacy code that had little or no documentation.",
+    "Answer": "Describe your methodical approach: reading tests or logs, tracing execution paths, adding characterization tests before refactoring, and documenting your findings for the next developer.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Describe a situation where you had to collaborate across multiple teams to deliver a feature.",
+    "Answer": "Highlight alignment and communication: establishing clear API contracts or interfaces early, syncing regularly on dependencies and timelines, and resolving cross-team blockers proactively.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Tell me about a time you realized partway through a project that your initial architectural approach was flawed.",
+    "Answer": "Show intellectual honesty and adaptability. Explain what signals revealed the flaw, how you evaluated the cost of pivoting versus continuing, and how you communicated and executed the course correction.",
+    "Category": "Behavioral",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe a time when you had to juggle multiple high-priority tasks simultaneously.",
+    "Answer": "Explain your prioritization framework (impact vs. urgency), how you minimized context switching, communicated realistic timelines to stakeholders, and ensured nothing critical fell through the cracks.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Tell me about a time you advocated for the end user when building a feature.",
+    "Answer": "Describe how you noticed a usability, accessibility, or performance issue during development, backed it up with user empathy or metrics, and adjusted the implementation to improve the user experience.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Describe a time you gave difficult feedback to a peer during a code review or project.",
+    "Answer": "Show emotional intelligence: focus critiques on the code and standards rather than the person, ask constructive questions, explain the 'why' behind your suggestions, and maintain a supportive tone.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Tell me about a time you had to convince your team to adopt a new tool, practice, or technology.",
+    "Answer": "Explain how you addressed team skepticism by building a small demo, highlighting clear benefits over existing workflows, addressing migration risks, and offering to lead the initial rollout.",
+    "Category": "Behavioral",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe a situation where you misinterpreted requirements and built the wrong thing.",
+    "Answer": "Own the communication gap, explain how quickly you caught the mismatch, how you worked with stakeholders to realign, and what habits (like design docs or early demos) you adopted to prevent it in the future.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Tell me about a time you automated a repetitive manual task.",
+    "Answer": "State what the manual task was, how much time or error risk it caused, the script or CI/CD pipeline you built to automate it, and the measurable productivity gains for you or your team.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Describe a time you had to support a teammate who was falling behind or struggling.",
+    "Answer": "Focus on teamwork without micromanaging. Explain how you offered help respectfully, paired on tough problems or redistributed tasks, and ensured the team met its commitment together.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  },
+  {
+    "Question": "Tell me about the most challenging technical problem you have solved and how you approached it.",
+    "Answer": "Break down why the problem was uniquely hard, the hypotheses you tested, the trade-offs between different solutions you considered, and the final result.",
+    "Category": "Behavioral",
+    "Difficulty": "Hard"
+  },
+  {
+    "Question": "Describe a time you had to compromise on a solution you strongly believed in.",
+    "Answer": "Demonstrate 'disagree and commit.' Explain why you agreed to the compromise for the sake of team velocity or alignment, how you supported the chosen path wholeheartedly, and what the outcome was.",
+    "Category": "Behavioral",
+    "Difficulty": "Medium"
+  },
+  {
+    "Question": "Why do you want to work in software engineering, and what keeps you motivated during tedious tasks?",
+    "Answer": "Connect your passion for problem-solving and building useful systems to how you handle routine work—such as viewing testing, documentation, and maintenance as essential foundations for reliable software.",
+    "Category": "Behavioral",
+    "Difficulty": "Easy"
+  }
+]

@@ -19,6 +19,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.0" />
     <PackageReference Include="Microsoft.OpenApi" Version="2.0.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
+    <PackageReference Include="Riok.Mapperly" Version="5.0.0-next.13" />
     <PackageReference Include="System.Security.Cryptography.Pkcs" Version="9.0.1" />
   </ItemGroup>
 

@@ -10,6 +10,7 @@ public class AppDbContext : IdentityDbContext<ApplicationUser, IdentityRole<Guid
     public DbSet<UserProfile> UserProfiles { get; set; }
     public DbSet<InterviewSession> InterviewSessions { get; set; }
     public DbSet<InterviewTurn> InterviewTurns { get; set; }
+    public DbSet<Dataset> Datasets{get;set;}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -40,5 +41,10 @@ public class AppDbContext : IdentityDbContext<ApplicationUser, IdentityRole<Guid
         modelBuilder.Entity<UserProfile>()
             .Property(p => p.TechStack)
             .HasColumnType("jsonb");
+        
+        modelBuilder.Entity<Dataset>().OwnsMany(q=>q.Questions, builder =>
+        {
+            builder.ToJson();
+        });
     }
 }

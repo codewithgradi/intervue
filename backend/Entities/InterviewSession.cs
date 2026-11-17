@@ -3,7 +3,7 @@ public class InterviewSession
 {
     public Guid Id { get; set; } = Guid.NewGuid();
     public Guid UserId { get; set; }
-    public string TargetRole { get; set; } = string.Empty; // e.g., "Data Analyst"
+    public string TargetRole { get; set; } = string.Empty; // e.g., "Software Engineer"
 
     public DateTime StartedAt { get; set; } = DateTime.UtcNow;
     public DateTime ExpiresAt { get; set; } // Enforces the 1-hour maximum limit

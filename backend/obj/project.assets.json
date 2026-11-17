@@ -581,6 +581,22 @@
           }
         }
       },
+      "Riok.Mapperly/5.0.0-next.13": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Riok.Mapperly.targets": {}
+        }
+      },
       "System.CodeDom/6.0.0": {
         "type": "package",
         "compile": {
@@ -2124,6 +2140,30 @@
         "postgresql.png"
       ]
     },
+    "Riok.Mapperly/5.0.0-next.13": {
+      "sha512": "dq2TArxLeSD30rakasL9/mngnkJM9pQPIY5mRuCGGZ+ySO2uDEc7HNuZTikP1jvOKAZqQjDCTW9XziReWu5lzg==",
+      "type": "package",
+      "path": "riok.mapperly/5.0.0-next.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/roslyn4.11/dotnet/cs/Riok.Mapperly.Abstractions.dll",
+        "analyzers/roslyn4.11/dotnet/cs/Riok.Mapperly.dll",
+        "analyzers/roslyn4.14/dotnet/cs/Riok.Mapperly.Abstractions.dll",
+        "analyzers/roslyn4.14/dotnet/cs/Riok.Mapperly.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Riok.Mapperly.Abstractions.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Riok.Mapperly.dll",
+        "analyzers/roslyn5.0/dotnet/cs/Riok.Mapperly.Abstractions.dll",
+        "analyzers/roslyn5.0/dotnet/cs/Riok.Mapperly.dll",
+        "build/Riok.Mapperly.targets",
+        "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll",
+        "lib/netstandard2.0/Riok.Mapperly.Abstractions.xml",
+        "logo.png",
+        "riok.mapperly.5.0.0-next.13.nupkg.sha512",
+        "riok.mapperly.nuspec"
+      ]
+    },
     "System.CodeDom/6.0.0": {
       "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
       "type": "package",
@@ -2355,6 +2395,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.0",
       "Microsoft.OpenApi >= 2.0.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.1",
+      "Riok.Mapperly >= 5.0.0-next.13",
       "System.Security.Cryptography.Pkcs >= 9.0.1"
     ]
   },
@@ -2440,6 +2481,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[10.0.1, )"
+          },
+          "Riok.Mapperly": {
+            "target": "Package",
+            "version": "[5.0.0-next.13, )"
           },
           "System.Security.Cryptography.Pkcs": {
             "target": "Package",
